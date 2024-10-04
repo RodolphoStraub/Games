@@ -1,0 +1,65 @@
+.all {
+  width: 70%;
+  margin-left: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  font-size: 36px;
+}
+
+.sub_all {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.sub_tile {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.all_btn {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.btn {
+  width: 100px;
+  height: 100px;
+  font-size: 40px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: rgba(255, 8, 0, 0.726);
+}
+
+.btn:hover {
+  background-color: rgb(255, 8, 0);
+  transform: scale(1.1);
+}
+
+.sub_all2 {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.escolha1 {
+  margin-top: 5px;
+}
+
+.escolha2 {
+  margin-top: 5px;
+}
+
+.result {
+  margin-top: 20px;
+}
