@@ -11,15 +11,15 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  border: 2px solid black;
-  border-radius: 20px;
+  border: 2px solid;
   padding: 20px;
-  background-color: rgb(224, 187, 105);
+  background-color: rgb(219, 219, 219);
+  border-image: linear-gradient(to right, violet, pink, cyan) 1;
 }
 
 .title {
   font-size: 36px;
-  background-color: rgb(224, 187, 105);
+  background-color: rgb(219, 219, 219);
 }
 
 .sub_all {
@@ -28,13 +28,13 @@
   align-items: center;
   text-align: center;
   margin-top: 15px;
-  background-color: rgb(224, 187, 105);
+  background-color: rgb(219, 219, 219);
 }
 
 .sub_tile {
   font-size: 30px;
   margin-bottom: 15px;
-  background-color: rgb(224, 187, 105);
+  background-color: rgb(219, 219, 219);
 }
 
 .all_btn {
@@ -42,7 +42,7 @@
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
-  background-color: rgb(224, 187, 105);
+  background-color: rgb(219, 219, 219);
 }
 
 .btn {
@@ -57,29 +57,29 @@
 }
 
 .btn:hover {
-  background-color: rgb(4, 255, 4);
+  background-color: rgb(146, 146, 146);
   transform: scale(1.1);
 }
 
 .sub_all2 {
   margin-top: 20px;
   font-size: 20px;
-  background-color: rgb(224, 187, 105);
+  background-color: rgb(219, 219, 219);
 }
 
 .escolha1 {
   margin-top: 5px;
-  background-color: rgb(224, 187, 105);
+  background-color: rgb(219, 219, 219);
 }
 
 .escolha2 {
   margin-top: 5px;
-  background-color: rgb(224, 187, 105);
+  background-color: rgb(219, 219, 219);
 }
 
 .result {
   margin-top: 20px;
-  background-color: rgb(224, 187, 105);
+  background-color: rgb(219, 219, 219);
 }
 
 .rules_board {
@@ -87,9 +87,9 @@
   margin-left: 5%;
   margin-top: 5%;
   padding: 30px;
-  border: 2px solid white;
-  border-radius: 10px;
-  background-color: rgb(224, 187, 105);
+  border: 2px solid ;
+  background-color: rgb(219, 219, 219);
+  border-image: linear-gradient(to right, violet, pink, cyan) 1;
 }
 
 .rules_title {

@@ -15,16 +15,16 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  border: 2px solid black;
-  border-radius: 20px;
   padding: 20px;
-  background-color: rgb(224, 187, 105);
+  background-color: rgb(219, 219, 219);
+  border: 2px solid;
+  border-image: linear-gradient(to right, violet, pink, cyan) 1;
 }
 
 .title {
   font-size: 36px;
   margin-bottom: 15px;
-  background-color: rgb(224, 187, 105);
+  background-color: rgb(219, 219, 219);
 }
 
 .sub_title {
@@ -32,7 +32,7 @@
   align-items: center;
   font-size: 26px;
   margin-bottom: 15px;
-  background-color: rgb(224, 187, 105);
+  background-color: rgb(219, 219, 219);
 }
 
 .choice {
@@ -55,7 +55,7 @@
 }
 
 .btn:hover {
-  background-color: rgb(134, 116, 78);
+  background-color: rgb(146, 146, 146);
   border: 2px solid white;
   color: white;
   transform: scale(1.1);
@@ -64,13 +64,13 @@
 .result {
   font-size: 20px;
   margin-top: 20px;
-  background-color: rgb(224, 187, 105);
+  background-color: rgb(219, 219, 219);
 }
 
 .escolha {
   font-size: 30px;
   margin-top: 5px;
-  background-color: rgb(224, 187, 105);
+  background-color: rgb(219, 219, 219);
 }
 
 .rules_board {
@@ -78,9 +78,9 @@
   margin-left: 5%;
   margin-top: 10%;
   padding: 30px;
-  border: 2px solid white;
-  border-radius: 10px;
-  background-color: rgb(224, 187, 105);
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgb(219, 219, 219);
+  border-image: linear-gradient(to right, violet, pink, cyan) 1;
 }
 
 .rules_title {
