@@ -38,9 +38,15 @@ const CaraOuCoroa = () => {
               value={choice}
               onChange={handleChoice}
             >
-              <option className={styles.option} value="">Escolha</option>
-              <option className={styles.option} value="cara">Cara</option>
-              <option className={styles.option} value="coroa">Coroa</option>
+              <option className={styles.option} value="">
+                Escolha
+              </option>
+              <option className={styles.option} value="cara">
+                Cara
+              </option>
+              <option className={styles.option} value="coroa">
+                Coroa
+              </option>
             </select>
           </label>
           <button className={styles.btn} onClick={play} disabled={!choice}>
